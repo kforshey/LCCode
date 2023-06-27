@@ -1,6 +1,6 @@
-C:\Users\kevin\source\repos\LabCorpSolution\Employees.Models\bin\Debug\Employees.Models.dll
-C:\Users\kevin\source\repos\LabCorpSolution\Employees.Models\bin\Debug\Employees.Models.pdb
-C:\Users\kevin\source\repos\LabCorpSolution\Employees.Models\obj\Debug\Employees.Models.csproj.AssemblyReference.cache
-C:\Users\kevin\source\repos\LabCorpSolution\Employees.Models\obj\Debug\Employees.Models.csproj.CoreCompileInputs.cache
-C:\Users\kevin\source\repos\LabCorpSolution\Employees.Models\obj\Debug\Employees.Models.dll
-C:\Users\kevin\source\repos\LabCorpSolution\Employees.Models\obj\Debug\Employees.Models.pdb
+C:\Users\kevin\OneDrive\Documents\GitHub\LCCode\LabCorpSolution\Employees.Models\bin\Debug\Employees.Models.dll
+C:\Users\kevin\OneDrive\Documents\GitHub\LCCode\LabCorpSolution\Employees.Models\bin\Debug\Employees.Models.pdb
+C:\Users\kevin\OneDrive\Documents\GitHub\LCCode\LabCorpSolution\Employees.Models\obj\Debug\Employees.Models.csproj.AssemblyReference.cache
+C:\Users\kevin\OneDrive\Documents\GitHub\LCCode\LabCorpSolution\Employees.Models\obj\Debug\Employees.Models.csproj.CoreCompileInputs.cache
+C:\Users\kevin\OneDrive\Documents\GitHub\LCCode\LabCorpSolution\Employees.Models\obj\Debug\Employees.Models.dll
+C:\Users\kevin\OneDrive\Documents\GitHub\LCCode\LabCorpSolution\Employees.Models\obj\Debug\Employees.Models.pdb

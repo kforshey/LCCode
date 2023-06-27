@@ -1,0 +1,18 @@
+﻿<h3>EmployeeComponent</h3>
+
+<label>  Maximum vacation days:  @employee.maxvacationdays</label>
+<br/>
+<label> vacation hours earned:  @employee.accumulatedvationdays</label>
+<br/>
+<br/>
+<p>
+    <label>Days Worked:  </label>
+    <textarea @bind="daysworked"/>
+    <button class="btn btn-primary" @onclick="Work">Enter days worked</button>
+</p>
+<p>
+    <br/>
+    <label>vacation hours:  </label>
+    <textarea @bind="vacationtime"/>
+    <button class="btn btn-primary" @onclick="TakeVacation">Take Vacation</button>
+</p>

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employees.UI", "Employees.UI\Employees.UI.csproj", "{8B4C54B5-719A-4B44-8BD5-A50FD5273BB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Employees.UI", "Employees.UI\Employees.UI.csproj", "{8B4C54B5-719A-4B44-8BD5-A50FD5273BB5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employees.Models", "Employees.Models\Employees.Models.csproj", "{4A0BD580-52ED-4D8A-B582-DF0B97C0ED7E}"
 EndProject

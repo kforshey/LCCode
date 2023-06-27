@@ -8,31 +8,46 @@ namespace Employees.Models.Contracts
 {
      public abstract class Employee
     {
-        protected internal float accumulatedvacationdays { get; set; }
 
+      
+        protected private float _accumulatedvacationdays { get; set; }
+
+        public float accumulatedvationdays
+        {
+            get
+            {
+                return _accumulatedvacationdays;
+            }
+        }
 
         public  int maxvacationdays { get; set; }
 
 
+
         public Employee() 
         { 
-            accumulatedvacationdays = 0;
+            _accumulatedvacationdays = 0;
         
         }
 
 
         public void Work(int daysworked)
         {
-            accumulatedvacationdays += daysworked * (maxvacationdays / 260);
-            if (accumulatedvacationdays > maxvacationdays)
+            float vacationearnedperday = (maxvacationdays / 260f);
+            _accumulatedvacationdays += (daysworked * vacationearnedperday);
+            if (_accumulatedvacationdays > maxvacationdays)
             {
-                accumulatedvacationdays = maxvacationdays;
+                _accumulatedvacationdays = maxvacationdays;
             }
         }
 
         public void TakeVacation(float daystaken)
         {
-            accumulatedvacationdays -= daystaken;
+            _accumulatedvacationdays -= daystaken;
+            if (_accumulatedvacationdays < 0)
+            {
+                _accumulatedvacationdays = 0;
+            }
         }
 
     }

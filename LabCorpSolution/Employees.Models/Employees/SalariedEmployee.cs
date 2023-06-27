@@ -13,10 +13,13 @@ namespace Employees.Models.Employees
     public class SalariedEmployee : Employee
     {
 
+        
+
+
         public SalariedEmployee() 
         {
             maxvacationdays = 15;
-        
+                    
         }
 
         //public void Work(int daysworked)
